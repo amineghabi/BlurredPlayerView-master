@@ -1,4 +1,4 @@
-# InteractivePlayerView
+# BlurredPlayerView
 [![Join the chat at https://gitter.im/iammert/InteractivePlayerView](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/iammert/InteractivePlayerView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-InteractivePlayerView-green.svg?style=flat)](https://android-arsenal.com/details/1/2332)
 
 Custom android music player view.
@@ -14,7 +14,7 @@ Check it on [youtube](https://www.youtube.com/watch?v=9cN5PCjUioM)
 Define it in your xml file.
 
 ```xml
- <co.mobiwise.library.InteractivePlayerView
+ <com.amineghabi.library.BlurredPlayerView
             android:id="@+id/ipv"
             android:layout_width="230dp"
             android:layout_height="230dp"
@@ -36,7 +36,7 @@ Define it in your xml file.
 Find view and set necessary values.
 
 ```java
-InteractivePlayerView ipv = (InteractivePlayerView) findViewById(R.id.ipv);
+BlurredPlayerView ipv = (BlurredPlayerView) findViewById(R.id.ipv);
 ipv.setMax(123); // music duration in seconds.
 ipv.setOnActionClickedListener(new OnActionClickedListener() {
             @Override
