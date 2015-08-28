@@ -82,18 +82,18 @@ ipv.setCoverURL("http://abc.xyz/1.png");
 ```java
 //edit your current progress
 ipv.setProgress(12);
-int currentProgress = ipv.getProgress();
+int currentProgress = bpv.getProgress();
 ```
 
 ```java
 //Check if any action selected or not. Or edit.
-boolean isSelected = ipv.isAction1Selected();
+boolean isSelected = bpv.isAction1Selected();
 ipv.setAction1Selected(true);
 ```
 
 ```java
-//Check if ipv is playing
-ipv.isPlaying();
+//Check if bpv is playing
+bpv.isPlaying();
 ```
 
 # Design Owner
