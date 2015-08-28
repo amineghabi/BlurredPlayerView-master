@@ -14,15 +14,16 @@ Define it in your xml file.
             android:id="@+id/bpv"
             android:layout_width="230dp"
             android:layout_height="230dp"
-            app:imageCover="@drawable/imagetest"
+            android:layout_centerInParent="true"
             app:emptyColor="#aaffffff"
+            app:imageCover="@drawable/inna"
             app:loadedColor="@color/blue_color"
             app:selectedAction1="@drawable/shuffle_selected"
-            app:selectedAction2="@drawable/like_selected"
-            app:selectedAction3="@drawable/replay_selected"
+            app:selectedAction2="@drawable/love_selected"
+            app:selectedAction3="@drawable/refresh_selected"
             app:unselectedAction1="@drawable/shuffle_unselected"
-            app:unselectedAction2="@drawable/like_unselected"
-            app:unselectedAction3="@drawable/replay_unselected" />
+            app:unselectedAction2="@drawable/love_unselected"
+            app:unselectedAction3="@drawable/refresh_unselected" />
 ```
 
 **IMPORTANT** :I designed shuffle, like and replay icons for my demo app. You can create your by using
