@@ -1,6 +1,6 @@
 # BlurredPlayerView
 
-Blurred Android music player view with Material design Concept.
+Blurred Android music player view with Material design Concept .
 
 # Screen
 ![alt tag](http://i59.tinypic.com/n1z8ty.png)
