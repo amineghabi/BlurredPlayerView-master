@@ -70,7 +70,7 @@ bpv.setActionOneImage(R.drawable.shuffle_selected, R.drawable.shuffle_unselected
 bpv.setActionTwoImage(R.drawable.like_selected, R.drawable.like_unselected);
 bpv.setActionThreeImage(R.drawable.replay_selected, R.drawable.replay_unselected);
 bpv.setProgressEmptyColor(Color.WHITE);
-bpv.setProgressEmptyColor(Color.blue_color);
+bpv.setProgressEmptyColor(Color.BLUE);
 ```
 
 # Useful methods
