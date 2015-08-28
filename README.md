@@ -58,19 +58,19 @@ bpv.setOnActionClickedListener(new OnActionClickedListener() {
 Start and stop depends on your player.
 
 ```java
-ipv.start();
-ipv.stop();
+bpv.start();
+bpv.stop();
 ```
 
 # Usage (Java)
 
 ```java
-ipv.setCoverDrawable(R.drawable.imagetest);
-ipv.setActionOneImage(R.drawable.shuffle_selected, R.drawable.shuffle_unselected);
-ipv.setActionTwoImage(R.drawable.like_selected, R.drawable.like_unselected);
-ipv.setActionThreeImage(R.drawable.replay_selected, R.drawable.replay_unselected);
-ipv.setProgressEmptyColor(Color.GRAY);
-ipv.setProgressEmptyColor(Color.BLACK);
+bpv.setCoverDrawable(R.drawable.imagetest);
+bpv.setActionOneImage(R.drawable.shuffle_selected, R.drawable.shuffle_unselected);
+bpv.setActionTwoImage(R.drawable.like_selected, R.drawable.like_unselected);
+bpv.setActionThreeImage(R.drawable.replay_selected, R.drawable.replay_unselected);
+bpv.setProgressEmptyColor(Color.WHITE);
+bpv.setProgressEmptyColor(Color.blue_color);
 ```
 
 # Useful methods
@@ -97,25 +97,6 @@ ipv.setAction1Selected(true);
 ipv.isPlaying();
 ```
 
-# Import
-
-Project build.gradle
-
-```
-repositories {
-    maven {
-        url "https://jitpack.io"
-    }
-}
-```
-
-Module build.gradle
-```
-dependencies {
-	   compile 'com.github.iammert:InteractivePlayerView:f4f6490290'
-}
-```
-
 # Design
 
 [Here is original design](https://www.pinterest.com/pin/400187116866664878/)
@@ -129,7 +110,7 @@ License
 --------
 
 
-    Copyright 2015 Mert Şimşek.
+    Copyright 2015 Amin Ghabi.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
