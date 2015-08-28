@@ -97,12 +97,13 @@ ipv.setAction1Selected(true);
 ipv.isPlaying();
 ```
 
-# Design
+# Design Owner
 
-[Here is original design](https://www.pinterest.com/pin/400187116866664878/)
+Design is created by [Amin Ghabi] (https://amineghabi.parseapp.com)
 
 # Library used
 
+[Butterknife Injection](https://github.com/JakeWharton/butterknife)
 [Picasso by Square](http://square.github.io/picasso/)
 
 
