@@ -17,7 +17,7 @@ Define it in your xml file.
             android:layout_height="230dp"
             app:imageCover="@drawable/imagetest"
             app:emptyColor="#aaffffff"
-            app:loadedColor="#fff44336"
+            app:loadedColor="@color/blue_color"
             app:selectedAction1="@drawable/shuffle_selected"
             app:selectedAction2="@drawable/like_selected"
             app:selectedAction3="@drawable/replay_selected"
@@ -30,7 +30,7 @@ Define it in your xml file.
 [Flat Icon](http://flaticon.com) website. Or, if you want to use mine instead of creating new icon set, then you can download my action set from [here](https://github.com/iammert/InteractivePlayerView/blob/master/demoIcons.zip).
 
 
-Find view and set necessary values.
+Inject view by adding this line  ```@Bind(R.id.bpv) BlurredPlayerView bpv;``` and this line ```ButterKnife.bind(this);```  and set necessary values.
 
 ```java
 BlurredPlayerView ipv = (BlurredPlayerView) findViewById(R.id.ipv);
