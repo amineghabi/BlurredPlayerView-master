@@ -11,7 +11,7 @@ Define it in your xml file.
 
 ```xml
  <com.amineghabi.library.BlurredPlayerView
-            android:id="@+id/ipv"
+            android:id="@+id/bpv"
             android:layout_width="230dp"
             android:layout_height="230dp"
             app:imageCover="@drawable/imagetest"
