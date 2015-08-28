@@ -33,20 +33,20 @@ Define it in your xml file.
 Inject view by adding this line  ```@Bind(R.id.bpv) BlurredPlayerView bpv;``` and this line ```ButterKnife.bind(this);```  and set necessary values.
 
 ```java
-BlurredPlayerView ipv = (BlurredPlayerView) findViewById(R.id.ipv);
-ipv.setMax(123); // music duration in seconds.
-ipv.setOnActionClickedListener(new OnActionClickedListener() {
+
+bpv.setMax(123); // music duration in seconds.
+bpv.setOnActionClickedListener(new OnActionClickedListener() {
             @Override
             public void onActionClicked(int id) {
                 switch (id){
                     case 1:
-                        //Called when 1. action is clicked.
+                        // do something
                         break;
                     case 2:
-                        //Called when 2. action is clicked.
+                        // do something
                         break;
                     case 3:
-                        //Called when 3. action is clicked.
+                        // do something
                         break;
                     default:
                         break;
