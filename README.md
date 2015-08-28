@@ -1,5 +1,4 @@
 # BlurredPlayerView
-[![Join the chat at https://gitter.im/iammert/InteractivePlayerView](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/iammert/InteractivePlayerView) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-InteractivePlayerView-green.svg?style=flat)](https://android-arsenal.com/details/1/2332)
 
 Custom android music player view.
 
