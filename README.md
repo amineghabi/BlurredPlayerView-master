@@ -3,6 +3,9 @@
 
 Custom android music player view.
 
+# Screen
+![alt tag](http://i59.tinypic.com/n1z8ty.png)
+
 # Usage(XML)
 
 Define it in your xml file.
