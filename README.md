@@ -25,8 +25,8 @@ Define it in your xml file.
             app:unselectedAction3="@drawable/replay_unselected" />
 ```
 
-**IMPORTANT** : I designed shuffle, like and replay icons for my demo app. You can create your by using
-[Flat Icon](http://flaticon.com) website. Or, if you want to use mine instead of creating new icon set, then you can download my action set from [here](https://github.com/iammert/InteractivePlayerView/blob/master/demoIcons.zip).
+**IMPORTANT** :I designed shuffle, like and replay icons for my demo app. You can create your by using
+[Flat Icon](http://flaticon.com) website.
 
 
 Inject view by adding this line  ```@Bind(R.id.bpv) BlurredPlayerView bpv;``` and this line ```ButterKnife.bind(this);```  and set necessary values.
